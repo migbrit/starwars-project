@@ -1,0 +1,11 @@
+.card{
+  font-family: 'Kanit', sans-serif;
+  color: aliceblue;
+  border: yellow 1px solid;
+  border-radius: 10px;
+  border-width: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}

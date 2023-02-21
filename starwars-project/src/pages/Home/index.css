@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(23, 23, 23);
+}
+
+.nav-bar{
+  color: yellow;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+
+.text{
+  color: whitesmoke;
+  font-family: 'Kanit', sans-serif;
+  word-wrap: break-word;
+  max-width: 800px; /* ou outro valor desejado */
+  margin-left: 30%;
+  font-size: 25px;
+}
+
+h1{
+  font-size: 100px;
+  color: rgb(23, 23, 23);
+  -webkit-text-stroke: yellow 2px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
