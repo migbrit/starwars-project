@@ -1,6 +1,8 @@
-import './index.css'
+import './styles.css'
 import {CharacterCard} from '../../components/CharacterCard'
 import { Link } from 'react-router-dom'
+import Navbar from '../../components/Navbar'
+
 
 function Home() {
 
@@ -8,9 +10,7 @@ function Home() {
     <div className="App">
       <div className="main">
       <h1>Star Wars</h1>
-      <div className='nav-bar'>
-      <Link to="/characters">Personagens</Link>
-      </div>
+      <Navbar/>
       <div className="text">
         <p>
         Esse é um projeto de estudo de ReactJS, onde é consumida uma API de Star Wars e é exibido os dados na tela.

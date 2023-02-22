@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, {useEffect, useState} from "react";
-import "./index.css"
+import Navbar from "../Navbar";
+import "./styles.css"
 
 interface ICharacter{
   name: string,
@@ -22,6 +23,8 @@ export const CharacterCard: React.FC = () => {
 
   return (
     <>
+      <h1>Personagens</h1>
+      <Navbar/>
       <div className="card">
       <strong>{character?.name}</strong>
       <small>{character?.height}</small>

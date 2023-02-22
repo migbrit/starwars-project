@@ -1,3 +1,11 @@
+h1{
+  font-size: 100px;
+  color: rgb(23, 23, 23);
+  -webkit-text-stroke: yellow 2px;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+}
+
 .card{
   font-family: 'Kanit', sans-serif;
   color: aliceblue;
